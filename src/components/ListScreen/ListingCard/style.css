@@ -1,0 +1,29 @@
+.listingCard-container {
+  margin: 0 auto;
+  width: 960px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 20px 10px 20px;
+}
+
+.listingCard-container li {
+  width: 920px;
+  height: 55px;
+  border: 2px solid #55bc04;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.listingCard-container p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #6f6f6f;
+}
+
+.listingCard-container h4 {
+  margin-top: 2px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #55bc04;
+}

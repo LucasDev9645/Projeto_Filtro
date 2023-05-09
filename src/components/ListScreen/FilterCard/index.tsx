@@ -2,8 +2,12 @@ import "./style.css";
 
 const FilterCard = () => {
   return (
-    <div>
-      <h2>Filter Card</h2>
+    <div className="form-container">
+      <form>
+        <input type="text" placeholder="Preço mínimo" />
+        <input type="text" placeholder="Preço máximo" />
+        <button>FILTRAR</button>
+      </form>
     </div>
   );
 };

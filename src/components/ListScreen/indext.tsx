@@ -8,9 +8,10 @@ const ListScreen = () => {
   return (
     <div>
       <Header />
-      <h1>List screen</h1>
-      <FilterCard />
-      <ListingCard />
+      <div className="container">
+        <FilterCard />
+        <ListingCard />
+      </div>
     </div>
   );
 };
