@@ -27,11 +27,11 @@ const FilterCard = ({ onValue1, onValue2 }: Props) => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    formData1.num1 || 0;
-    formData2.num2 || Number.MAX_VALUE;
+    formData1.num1;
+    formData2.num2;
     if (onValue1 && onValue2) {
-      onValue1(formData1.num1);
-      onValue2(formData2.num2);
+      onValue1(formData1.num1 || 0);
+      onValue2(formData2.num2 || Number.MAX_VALUE);
     }
   };
 
